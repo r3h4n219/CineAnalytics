@@ -1,0 +1,29 @@
+
+# Python environments
+.venv/
+.venv-1/
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Private API credentials
+.env
+.env.*
+
+# Personal Letterboxd data
+data/*.csv
+
+# SQLite databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Generated CSV files containing movie data
+output/*.csv
+
+# System and editor files
+.DS_Store
+Thumbs.db
+.vscode/
